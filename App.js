@@ -2,11 +2,14 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Tips from './src/components/Tips';
 
+import Background from './src/background/Background';
+
 
 export default function App() {
 
   return (
     <View style={styles.container}>
+      <Background/>
       <Tips/>
     </View>
   );

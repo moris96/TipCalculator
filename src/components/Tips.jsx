@@ -94,6 +94,7 @@ const Tips = () => {
 
   return (
     <View style={[styles.container, styles.borderBox, darkMode && styles.darkModeContainer]}>
+      <Text style={[styles.title, darkMode && styles.darkModeText]}>Tip Calculator</Text>
       <Text style={[styles.label, darkMode && styles.darkModeText]}>Enter Bill Amount:</Text>
       <TextInput
         style={[styles.input, darkMode && styles.darkModeInput]}
@@ -210,6 +211,11 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 16,
     marginVertical: 8,
+  },
+  title: {
+    fontSize: 30,
+    marginBottom: 17,
+    textAlign: 'center',
   },
   input: {
     height: 40,
