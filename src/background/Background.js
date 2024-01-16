@@ -52,6 +52,7 @@ const Background = () => {
           ],
     }]}
     source={backgroundImage}
+    blurRadius={5}
     />
   );
 };

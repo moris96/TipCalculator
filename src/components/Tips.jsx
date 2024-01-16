@@ -204,18 +204,20 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   borderBox: {
-    borderWidth: 4,
-    borderColor: 'purple',
-    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: 'black',
+    borderRadius: 20,
   },
   label: {
     fontSize: 16,
     marginVertical: 8,
+    fontWeight: 'bold',
   },
   title: {
     fontSize: 30,
     marginBottom: 17,
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   input: {
     height: 40,
@@ -224,6 +226,7 @@ const styles = StyleSheet.create({
     borderRadius: 24,
     marginBottom: 16,
     paddingHorizontal: 10,
+    fontWeight: 'bold',
   },
   slider: {
     height: 40,
@@ -239,7 +242,7 @@ const styles = StyleSheet.create({
   tipButton: {
     backgroundColor: 'blue', // Default button color
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 15,
   },
   selectedButton: {
     backgroundColor: 'red', // Selected button color
@@ -273,8 +276,9 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginTop: 16,
     fontWeight: 'bold',
+    marginBottom: 10,
   },
-
+  // Dark mode stuff 
   darkModeContainer: {
     backgroundColor: 'black',
   },
