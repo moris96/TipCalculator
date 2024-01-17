@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 40,
-    borderColor: 'purple',
+    borderColor: 'black',
     borderWidth: 2,
     borderRadius: 24,
     marginBottom: 16,

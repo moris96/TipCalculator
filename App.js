@@ -4,11 +4,14 @@ import Tips from './src/components/Tips';
 
 import Background from './src/background/Background';
 
+import Ads from './src/components/Ads';
+
 
 export default function App() {
 
   return (
     <View style={styles.container}>
+      <Ads/>
       <Background/>
       <Tips/>
     </View>
