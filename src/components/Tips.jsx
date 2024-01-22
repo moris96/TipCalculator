@@ -168,7 +168,7 @@ const Tips = () => {
         onPress={toggleInputMethod}
       >
         <Text style={[styles.toggleButtonText, darkMode && styles.darkModeText]}>
-          {inputMethod === 'slider' ? 'Click to use Buttons' : 'Click to use Slider'}
+          {inputMethod === 'slider' ? 'Fixed Tips' : 'Custom Tip'}
         </Text>
       </TouchableOpacity>
 
@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
     borderRadius: 15,
   },
   selectedButton: {
-    backgroundColor: 'red', // Selected button color
+    backgroundColor: 'green', // Selected button color
   },
   buttonText: {
     color: 'white',
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   darkModeButton: {
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
   },
 });
 
